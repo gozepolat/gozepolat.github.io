@@ -1,7 +1,7 @@
 ---
 title: Art with Math
 author: gozepolat
-date: 2022-11-17 04:30:00 -0500
+date: 2022-11-17 05:30:00 -0500
 math: true
 categories: [Artificial Intelligence, Deep Learning]
 tags: [research, deep learning, phd]

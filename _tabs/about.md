@@ -18,7 +18,7 @@ Strong fundamental research can introduce widely useful concepts. Some of my rec
 - information theory,
 - statistical mechanics.
 
-My [Ph.D. thesis](https://open.metu.edu.tr/bitstream/handle/11511/104170/index.pdf) focused on graph based analysis and comparison of deep learning models. I have a peer reviewed [publication](https://iopscience.iop.org/article/10.1088/2632-2153/acc713) that introduced the [reusability prior](./research), and a new methodology to rank DL models in terms of estimated performance _without any training_.
+My [Ph.D. thesis](https://open.metu.edu.tr/bitstream/handle/11511/104170/index.pdf) focused on graph based analysis and comparison of deep learning models. I have a peer reviewed [publication](https://iopscience.iop.org/article/10.1088/2632-2153/acc713) that introduces a new methodology to rank DL models in terms of estimated performance _without any training_.
 
 During my Ph.D. I also dabbled in genetic algorithms. I was particularly interested in treating the model architecture as genotype and sharing parameters across different models. This led to a PyTorch based library, [Revolver](https://github.com/gozepolat/revolver) that allowed neural architecture search (NAS) using genetic operators while reusing model components.
 
