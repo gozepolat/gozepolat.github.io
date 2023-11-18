@@ -11,7 +11,7 @@ tags: [research, deep learning, phd]
 
 Yunus Emre says "I am the drop that contains the ocean".  It may be the case that a limited set of rules is responsible for everything around us. They may apply in various scales over and over again.  
 
-{% raw %} 
+{% raw %}
 <video autoplay loop muted playsinline>
   <source src="/assets/img/fractal.webm" type="video/webm">
 </video>
@@ -70,4 +70,8 @@ which were able to temporarily preserve the edges to some extent:
 </video>
 {% endraw %}
 
-Feel free to check [this repo](https://github.com/gozepolat/minimization_art) for the details, and enjoy!
+### Samples
+
+![stars.jpg]({{site.baseurl}}/assets/img/stars.jpg)
+
+Feel free to check [this repo](https://github.com/gozepolat/minimization_art) for more details. Enjoy!
