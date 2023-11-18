@@ -6,21 +6,21 @@ order: 4
 
 # Who am I?
 
-I am a researcher, engineer, and entrepreneur focusing on deep learning. I am interested in fundamental research in deep learning, physics, and pure math. After receiving my PhD, I have decided to build my own start up as a technical founder.
+I am a researcher, engineer, and entrepreneur focusing on deep learning. I am interested in fundamental research in deep learning, physics, and pure math. After receiving my Ph.D., I have decided to build my own start up as a technical founder.
 
 ## Research
 
 Strong fundamental research can introduce widely useful concepts. Some of my recent research interests are as follows:
 
-- AI
-- deep learning,
+- artificial intelligence (AI),
+- deep learning (DL),
 - abstract algebra,
 - information theory,
 - statistical mechanics.
 
-My [Ph.D. thesis](https://open.metu.edu.tr/bitstream/handle/11511/104170/index.pdf) focused on graph based analysis and comparison of deep learning models. I have a peer reviewed [publication](https://iopscience.iop.org/article/10.1088/2632-2153/acc713) that introduces a new methodology to rank DL models in terms of estimated performance _without any training_.
+My [Ph.D. thesis](https://open.metu.edu.tr/bitstream/handle/11511/104170/index.pdf) focused on graph based analysis and comparison of DL models. I have a peer reviewed [publication](https://iopscience.iop.org/article/10.1088/2632-2153/acc713) that introduces a [new methodology]({{site.baseurl}}/research) to rank DL models in terms of estimated performance _without any training_.
 
-During my Ph.D. I also dabbled in genetic algorithms. I was particularly interested in treating the model architecture as genotype and sharing parameters across different models. This led to a PyTorch based library, [Revolver](https://github.com/gozepolat/revolver) that allowed neural architecture search (NAS) using genetic operators while reusing model components.
+During my Ph.D. I also dabbled in genetic algorithms. I was particularly interested in treating the model architecture as genotype and sharing parameters across different models. This led to a PyTorch based library, [Revolver](https://github.com/gozepolat/revolver) that allowed neural architecture search (NAS) using genetic operators while reusing model components. For my [master's thesis](https://open.metu.edu.tr/handle/11511/21919) I was interested in genetic algorithms as well. I studied the cellular organization in the retina, focusing on modeling cell-cell interactions and self organization.
 
 ## Work culture that works
 
@@ -39,4 +39,4 @@ After working at several companies around the world, I have distilled ten import
 
 ## Availability
 
-Currently I am not available for job interviews but for networking feel free to send an email or connect via [LinkedIn](https://www.linkedin.com/in/aydin-polat/).
+Currently I am not available for job interviews but, for networking, feel free to send an email or connect via [LinkedIn](https://www.linkedin.com/in/aydin-polat/).

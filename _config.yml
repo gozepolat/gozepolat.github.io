@@ -73,7 +73,7 @@ theme_mode: light # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: assets/img/author1.png
+avatar: assets/img/gozepolat.jpg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -153,7 +153,7 @@ defaults:
     values:
       layout: page
       permalink: /:title/
-      comments: true
+      comments: false
   - scope:
       path: assets/img/favicons
     values:

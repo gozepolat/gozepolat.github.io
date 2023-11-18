@@ -5,11 +5,11 @@ order: 5
 math: true
 ---
 
-# The Essence of Deep Learning: Succinctly Describing Complex Representations
+## The Essence of Deep Learning: Succinctly Describing Complex Representations
 
-Explaining complexity with simple equations has a certain elegance to it. For this reason, I have always been drawn to physics and pure mathematics. While working on my PhD as a computer engineer, my programming background and interests eventually led me to an interesting hypothesis:
+Explaining complexity with simple equations has a certain elegance to it. For this reason, I have always been drawn to physics and pure mathematics. While working on my [Ph.D.](https://open.metu.edu.tr/handle/11511/104170) as a computer engineer, my programming background and interests eventually led me to an interesting hypothesis:
 
-   "Parameter efficiency is tied to parameter reuse. All mainstream deep learning models reuse parameters directly or indirectly. Their computational graphs can be horizontally unrolled into a form where this can be shown explicitly. The unrolled size grows exponentially with depth. In this unrolled form, their expected level of parameter reuse (i.e. _expected spread_) can be quantified using a simple counting approach."
+> "Parameter efficiency is tied to parameter reuse. All mainstream deep learning models reuse parameters directly or indirectly. Their computational graphs can be horizontally unrolled into a form where this can be shown explicitly. The unrolled size grows exponentially with depth. In this unrolled form, their expected level of parameter reuse (i.e. _expected spread_) can be quantified using a simple counting approach."
 
 ![figure3a_horizontal_unrolling.png]({{site.baseurl}}/assets/img/figure3a_horizontal_unrolling.png){: w="50%" h="50%"}
 
@@ -37,7 +37,7 @@ This graph also has eight learnable parameters. Yet it has more contexts. That i
 
 I define the reusability prior as follows:
 
-"DL model components are forced to function in diverse contexts not only due to the training data, augmentation, and regularization choices, but also due to the model design itself. By relying on the repetition of learnable parameters in multiple contexts, a model can learn to describe an approximation of the desired function more efficiently with fewer parameters."
+> "DL model components are forced to function in diverse contexts not only due to the training data, augmentation, and regularization choices, but also due to the model design itself. By relying on the repetition of learnable parameters in multiple contexts, a model can learn to describe an approximation of the desired function more efficiently with fewer parameters."
 
 Predicting model performance by relying on the number of learnable parameters is a naive approach that does not work when different model designs are compared. The reusability prior gives better results. I have a peer reviewed [publication](https://iopscience.iop.org/article/10.1088/2632-2153/acc713) which focuses on the model design aspect and introduces a graph-based methodology to estimate the number of contexts for each learnable parameter. By calculating graph based quantities for estimating model performance, it becomes possible to compare models _without training_. The idea is more general than the model design level, as a diverse number of contexts for learnable parameters is also achieved via increasing the size of the training data, adding regularization, and data augmentation. Future work on these aspects may result in similar predictive abilities in terms of ranking model performance when other conditions are comparable.
 

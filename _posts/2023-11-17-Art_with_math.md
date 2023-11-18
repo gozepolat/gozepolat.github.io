@@ -11,7 +11,11 @@ tags: [research, deep learning, phd]
 
 Yunus Emre says "I am the drop that contains the ocean".  It may be the case that a limited set of rules is responsible for everything around us. They may apply in various scales over and over again.  
 
-![fractal.gif]({{site.baseurl}}/assets/img/fractal.gif?raw=True){: w="70%" h="70%"}
+{% raw %} 
+<video autoplay loop muted playsinline>
+  <source src="/assets/img/fractal.webm" type="video/webm">
+</video>
+{% endraw %}
 
 I like imagining Yunus Emre's ocean as a fractal. I came up with this fractal using the below recurrence relation:
 
@@ -60,4 +64,10 @@ it penalizes the case where edges disappear by learning a $$ K $$ that quickly i
 and after finding the right diffusion rate vs learning rate, I observed aesthetically pleasing diffusion reaction transformations
 which were able to temporarily preserve the edges to some extent:
 
-![profile.gif]({{site.baseurl}}/assets/img/profile.gif?raw=True){: w="60%" h="60%"}
+{% raw %}
+<video autoplay loop muted playsinline>
+  <source src="/assets/img/profile.webm" type="video/webm">
+</video>
+{% endraw %}
+
+Feel free to check [this repo](https://github.com/gozepolat/minimization_art) for the details, and enjoy!
