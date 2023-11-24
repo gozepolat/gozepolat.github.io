@@ -40,7 +40,7 @@ During the minimization, we normally use a constant kernel to calculate the grad
 
 ## Perona-Malik with PyTorch
 
-The amount of flexibility and ease of use makes PyTorch
+The amount of flexibility and ease of use make PyTorch
 a great choice for both research and prototyping. Moreover, it is quite easy to use PyTorch for things other than deep learning where you still need GPU acceleration; hence my experiments on Perona-Malik!
 
 I started implementing a vanilla version of Perona-Malik using PyTorch, where I initialized a convolutional layer as my Laplace operator. The convolutional kernel is initialized as below:

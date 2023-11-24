@@ -14,13 +14,14 @@ timezone: Canada/Ottawa
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Aydin Goze Polat, PhD # the main title
+title: Aydın Göze Polat, PhD # the main title
 
 tagline: Deep learning researcher, engineer, and entrepreneur # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Aydin Göze Polat, PhD, deep learning researcher, engineer, and entrepreneur.
+  AYDIN GOZE POLAT, PhD is a deep learning researcher, engineer, and entrepreneur. | Aydın Göze Polat likes talking about deep learning, information theory, and physics.
 
+image: /assets/img/gozepolat.jpg
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://gozepolat.github.io"
@@ -34,17 +35,18 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Aydin Göze Polat
-  email: contact@seq-seq.com # change to your email address
+  name: AYDIN GOZE POLAT
+  email: agplt@hotmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     #- https://twitter.com/username # change to your twitter homepage
     - https://github.com/gozepolat # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
+    - https://www.instagram.com/aydingoze
     - https://www.linkedin.com/in/aydin-polat
 
-google_site_verification: # fill in to your verification string
+google_site_verification: google7c40ab33c2b1734b.html # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
